@@ -1,1 +1,18 @@
 test
+
+
+-Replace text with story details-
+
+Now that the offices have been accessed, further utilities can be utilized.
+
+(Placeholder text) The files you need are located here.  To search through them, be sure to use the cat utility.
+
+Further still, there are bonus utilities that can be utilized to make your search easier.
+
+The grep utility allows you to search for specific key words in any files you sift through.  Utilize this to narrow down your searches if the file you're reading through is too wordy.
+
+If the file you're looking through has pertinent info on a few lines at the beginning or end of the file, the head and tail utilities allow you to look at the beginning and end of the file respectively.  Further still, you can narrow those down by providing minus sign followd by a numerical value based one how many lines there are.
+
+Example: cat -file- | grep secret
+Example: cat -file- head -2
+Example: cat -file- tail -3
