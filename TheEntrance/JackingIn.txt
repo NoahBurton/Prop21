@@ -34,8 +34,6 @@ Your feet do exist as well just so you know.
 
 To move between locations make sure you're using the cd input.
 
-For example:
-$ls
-$cd room1 
+
 
 Now, be sure to utlize your eyes and feet to the best of their ability in the subsequent rooms you come across.
