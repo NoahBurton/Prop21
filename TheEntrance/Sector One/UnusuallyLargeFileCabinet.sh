@@ -25,3 +25,6 @@ if [ $answ = "dog" ];
  echo "   /  \ /  \ "  >> art
 fi
 
+echo " To move this beautiful art you can use the command mv art .."
+echo " The ".." means the file will be moved up one directory, very useful for this situation!"
+echo " HOW TO MOVE FILES WITH MV NORMALLY"
