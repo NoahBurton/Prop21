@@ -1,25 +1,27 @@
 #!/bin/bash
 
-echo "placehodler text"
-sleep 10
-echo "placeholder text"
-sleep 3
-echo "placeholder information 1"
-echo "placeholder information 2"
-echo "placeholder information 3"
-echo "placeholder information 4"
+echo "After opening the large obsidian file cabinet it extends out almost taking you out in the process. When the cabinet is at a rest you riffled through the papers you find your eyes rested upon an NFT, big money if you can haul it back to the entrance!"
 
-#Not sure if you wanted to use the size of this cabinet to allow the user to utlize the grep utility or not but the option is there.
-
-#copys art to Entrance
+echo "What NFT do you see? abstract or dog?"
 
 read answ
-echo "Does the cabinet contain the information you seek?"
 
-if [$answ = "yes" -o $answ = "YES" ]; 
+touch art
+
+if [ $answ = "abstract" ];
  then
- echo "Fantastic, now use the cp utlitity to copy and move the art to the Entrance."
- else 
- echo "Nothing here.  Either look harder or look elsewhere."
+ echo "            /\    /\ " >> art
+ echo "    /  \  /  \     "  >> art
+ echo "   / /\ \/ /\ \    "  >> art
+ echo "  / /  \ \/  \ \   "  >> art
+ echo " / /   /\ \   \ \  "  >> art
+ echo " \ \  / /\ \  / /  "  >> art
+fi
+if [ $answ = "dog" ];
+ then
+ echo " ^..^      / "  >> art
+ echo " /_/\_____/  "  >> art
+ echo "    /\   /\  "  >> art
+ echo "   /  \ /  \ "  >> art
+fi
 
-#ex: cp art Entrance
