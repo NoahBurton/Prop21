@@ -48,7 +48,7 @@ read art
 
 if [$art = "abstract" ];
  then
- mv abstract sector1/Entrance
+ mv abstract Sector One/TheEntrance
  else
- mv dog sector1/Entrance
+ mv dog Sector One/TheEntrance
 fi
