@@ -1,1 +1,6 @@
 test
+
+
+With elevator access you can access previously inaccessible areas.
+
+Use the ls utility to check which areas are available to you, and remember to utilize the cd utility to move between them.
