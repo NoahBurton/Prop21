@@ -38,6 +38,11 @@ echo " An example would be mv FileName ../../ to move the file up two directorie
 echo " "
 echo " To move a file down you can use the command this way mv FileName dir1/dir2/ these directories this is pathed from the current directory you would be in, example would be YouAreHere/dir1/dir2"
 echo " In the example given above the file would be moved to the dir2 directory"
+echo " To move a file up in this way you could have to start from your home directory and move down in the path"
+echo " An example would be mv FileName home/pictures/ "
+echo " Remember home may be named differently and can be subsituted with the ~ key "
+echo " An example would be mv FileName ~/pictures/ "
+
 
 read art
 
