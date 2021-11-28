@@ -1,29 +1,20 @@
 #!/bin/bash
 
-
-
-if ["$0" = "ls crooked_painting" ]; then
  echo "You spot the oddly hung painting and figure it may be hiding something."
- echo "Do you want to check it out?"
-fi
-
+ echo "Do you want to check it out? y/n"
+ 
 read answ
 
-if [ $answ = "yes" -o $answ = "YES" ]; then
- cd crooked_painting
+if [ $answ = "y" ]; then
  echo "Fantastic find!  A hidden terminal in the space behind the painting.  Perhaps it contains some crucial data?"
  else
   echo "It is of no interest currently."
+  exit
 fi  
 
-
-
-if ["$0" = "./lone_terminal" ]; 
- then 
  echo "Before you sits a terminal, perhaps containing a fair deal of useful information."
  echo "A log-in is required.  Looks like the system requires a name and account number."
  echo "Maybe you've found something in the previous sector that can be of use?"
-fi
 
 
 
