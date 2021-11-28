@@ -12,6 +12,3 @@ For example:
 $ls
 $cd TheEntrance
 $cat readme.txt
-
-
-To begin game: Be sure to unpack the file into your home directory.  If the file does not allow you to execute, be sure to use chmod u+x to give yourself execute ability.  Once done use ./(game name) to run the game.
