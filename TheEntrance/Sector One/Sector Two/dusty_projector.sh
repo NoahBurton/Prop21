@@ -10,7 +10,6 @@ echo "Take a closer look? y/n"
 read answ
 
 if [ $answ = "y" ]; then
- ls dusty_projector
  echo "The projector flickers on and off, the image of a face filling the screen."
  echo "A small keypad showing its age emits a bright flash and blinks to life with numbers and names. Maybe a name will help find some anwsers?"
 fi
