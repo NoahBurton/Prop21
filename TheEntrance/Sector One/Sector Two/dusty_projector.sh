@@ -17,7 +17,7 @@ fi
 
 read input
 
-if [ $input = "Rashawn Cormier Sr." ]; then
+if [ $input = "Rashawn_Cormier_Sr" ]; then
  echo "Upon closer inspection, it appears that the flickering graph on the screen has been scribbled over."
  echo "You make out several numbers: 8-6-7-5"
  echo "They could be of some use down the line."
