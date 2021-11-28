@@ -1,21 +1,23 @@
 #!/bin/bash
 
-if [ $0 = "cd dusty_projector" ]; then
  echo "You approach the seemingly forgotten projector."
  echo "Nothing here seems too out of the ordinary,"
  echo "but you know better than to make assumptions at this point."
-fi
+
+
+echo "Take a closer look? y/n"
 
 read answ
 
-echo "Take a closer look?"
-
-if [ $answ = "yes" -o $answ = "YES" ]; then
+if [ $answ = "y" ]; then
  ls dusty_projector
- echo "The projector flickers on and off, the image of a graph filling the screen.  Is that all?"
+ echo "The projector flickers on and off, the image of a face filling the screen."
+ echo "A small keypad showing its age emits a bright flash and blinks to life with numbers and names. Maybe a name will help find some anwsers?"
 fi
 
-if [ $0 = "ls -a dusty_projector" ]; then
+read input
+
+if [ $input = "Rashawn Cormier Sr." ]; then
  echo "Upon closer inspection, it appears that the flickering graph on the screen has been scribbled over."
  echo "You make out several numbers: 8-6-7-5"
  echo "They could be of some use down the line."
