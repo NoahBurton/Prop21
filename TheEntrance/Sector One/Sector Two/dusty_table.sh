@@ -27,5 +27,20 @@ if [ $0 = "ls wooden_table" ]; then
  echo "You may or may not have any ideas for what they code could possibly be, but perhaps something else in the room can help."
 fi
 
+echo "If you've found any clues now may be the time to use them."
+
+if [$0 = "8675" ]; then
+ echo "Jackpot!  The code you've entered opened a secret compartment."
+ touch hidden_art 
+ echo "Be sure to send it to the entrance."
+fi
+
+if [ $0 = "mv hidden_art Sector Two/Sector One/TheEntrance" ]; then
+ mv hidden_art Sector Two/Sector One/TheEntrance
+fi
+ 
+
+
+
 
 
