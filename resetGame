@@ -1,6 +1,6 @@
 #!/bin/bash
 
 unset BestLark
-
+touch .BestLark
 cp .BestLark
 
