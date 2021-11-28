@@ -47,6 +47,7 @@ if [$input = "user_name" & $input = "password" ]; then
  echo "The terminal contains a few things of note.  Perhaps the information gleamed here will be useful down the line."
  echo "-important code here-" >> secret_file
  echo "-important information here-" >> secret_file
+fi
  
  
  
