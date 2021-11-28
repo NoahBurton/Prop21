@@ -42,13 +42,3 @@ echo " To move a file up in this way you could have to start from your home dire
 echo " An example would be mv FileName home/pictures/ "
 echo " Remember home may be named differently and can be subsituted with the ~ key "
 echo " An example would be mv FileName ~/pictures/ "
-
-
-read art
-
-if [$art = "abstract" ];
- then
- mv abstract Sector One/TheEntrance
- else
- mv dog Sector One/TheEntrance
-fi
