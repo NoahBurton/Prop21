@@ -13,32 +13,24 @@ if [ $answ = "y" ]; then
 fi  
 
  echo "Before you sits a terminal, perhaps containing a fair deal of useful information."
- echo "A log-in is required.  Looks like the system requires a name and account number."
+ echo "A log-in is required.  Looks like the user name is already input, just need an account number."
  echo "Maybe you've found something in the previous sector that can be of use?"
 
 
+read -p pass
 
-if ["$0" = "user_name" ]; then
- echo "Accepted!"
- else
- echo "Wrong information!"
-fi
-
-if ["$0" = "password" ]; then 
+if [$pass = "password" ]; then 
  echo "Password accepted!"
+ echo "You gain access to a informations database!"
+ echo 'Hidden information' > database
+ cp -r ~/Prop21/TheEntrance/Sector One/.database
+ mv .database /Sector One/database
+ cat database/database.txt
  else
  echo "Wrong password!"
 fi
 
-read input
 
-touch secret_file
-
-if [$input = "user_name" & $input = "password" ]; then
- echo "The terminal contains a few things of note.  Perhaps the information gleamed here will be useful down the line."
- echo "-important code here-" >> secret_file
- echo "-important information here-" >> secret_file
-fi
  
  
  
