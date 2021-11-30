@@ -3,41 +3,29 @@
 echo "The table in the center of the room doesn't do much to grab your attention,"
 echo "but the chairs look damn comfy.  A closer look my be in order."
 
-read answ
+
 
 echo "Want to check it out?"
 
-if [$answ = "yes" -o $answ = "YES" ]; then
- cd wooden_table
+read -p "Closer look?" answ
 
-echo " "
-echo "You approach the table and see nothing too out of the ordinary."
-echo "Of course you are more than welcome to take a closer look."
+if [$answ = "yes" -o $answ = "YES" ]; then
+ echo "Leave no stone unturned as they say.  Use the input 'ls -a' to be thorough in your search."
 else
 echo "You don't find the table to be of enough interest to check out right now."
 fi
 
-if [ $0 = "ls" ]; then
- echo "As you assumed, nothing too out of the ordinary."
-fi
 
-if [ $0 = "ls wooden_table" ]; then
- echo "Jackpot!"
- echo "Upon closer inspection you see that the wooden table contains a key pad."
- echo "You may or may not have any ideas for what they code could possibly be, but perhaps something else in the room can help."
-fi
 
-echo "If you've found any clues now may be the time to use them."
+read -p "If you've found any clues now may be the time to use them." digi
 
-if [$0 = "8675" ]; then
+if [$digi = "8675" ]; then
  echo "Jackpot!  The code you've entered opened a secret compartment."
  touch hidden_art 
- echo "Be sure to send it to the entrance."
+ echo "Be sure to send it to the entrance with the mv utility."
 fi
 
-if [ $0 = "mv hidden_art Sector Two/Sector One/TheEntrance" ]; then
- mv hidden_art Sector Two/Sector One/TheEntrance
-fi
+
  
 
 
