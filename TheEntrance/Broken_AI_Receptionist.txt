@@ -1,0 +1,16 @@
+The sharply dressed flickering hologram loops a jumbled greeting animation.
+Acompening this animation is a automated voice greeting
+"Hello Mr Brackhaven your new security code is chmod u+x
+Thanks to this bug you can access a lot more of this place now!
+Maybe this bugged AI can help you throughout your journey.
+You plug your cyberdeck into the terminal hooked to the desk and download the AI
+for future use.
+
+----------------------------------------------------------------------------------
+Using chmod in linuix allows you to change permissions.
+An exampe is chmod u+x FileName which allows you to exucute a file.
+There are many other uses for this command but here you will need u+x the most.
+
+Another key feature to a new user is the man command.
+This command will allow you to understand more about features in linux!
+try typing man cat and see what happens!
