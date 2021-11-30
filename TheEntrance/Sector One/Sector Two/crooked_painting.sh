@@ -23,8 +23,8 @@ if [$pass = "password" ]; then
  echo "Password accepted!"
  echo "You gain access to a informations database!"
  echo 'Hidden information' > database
- cp -r ~/Prop21/TheEntrance/Sector One/.database
- mv .database /Sector One/database
+ cp -r ~/Prop21/TheEntrance/Sector One/Sector Two/.database
+ mv .database /Sector One/Sector Two/database
  cat database/database.txt
  else
  echo "Wrong password!"
