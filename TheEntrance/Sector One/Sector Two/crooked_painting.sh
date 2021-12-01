@@ -1,15 +1,16 @@
 #!/bin/bash
 
  echo "You spot the oddly hung painting and figure it may be hiding something."
- echo "Do you want to check it out? y/n"
  
-read answ
+ 
+read -p "Do you want to check it out? y/n" answ
 
-if [ $answ = "y" ]; then
+if [ $answ = "y" -o $answ = "yes" ]; then
  echo "Fantastic find!  A hidden terminal in the space behind the painting.  Perhaps it contains some crucial data?"
- else
+  if [ $answ = "n" -o $answ = "no" ]; then
   echo "It is of no interest currently."
   exit
+  fi
 fi  
 
  echo "Before you sits a terminal, perhaps containing a fair deal of useful information."
@@ -17,14 +18,12 @@ fi
  echo "Maybe you've found something in the previous sector that can be of use?"
 
 
-read -p pass
+read -p "Enter password: " pass
 
 if [$pass = "password" ]; then 
  echo "Password accepted!"
- echo "You gain access to a informations database!"
- echo 'Hidden information' > database
- cp -r ~/Prop21/TheEntrance/Sector One/Sector Two/.database
- mv .database /Sector One/Sector Two/database
+ echo "You gain access to an informations database!"
+ cp -r .database database 
  cat database/database.txt
  else
  echo "Wrong password!"
