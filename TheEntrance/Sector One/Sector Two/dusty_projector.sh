@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#To color code the text for code:
+
+PURPLE='\033[0;35m'
+
  echo "You approach the seemingly forgotten projector."
  echo "Nothing here seems too out of the ordinary,"
  echo "but you know better than to make assumptions at this point."
@@ -19,6 +23,6 @@ read input
 if [ $input = "mv" ]; then
  echo "The Projector whirls as the numbers start to spill onto the screen numbers and images start flashing quickly."
  echo "The numbers starting to slow as the machine hums to a dull click as the numbers are placed in order onto the screen."
- echo "You make out several numbers: 8-6-7-5"
+ echo -e "You make out several numbers: ${PURPLE}8-6-7-5"
  echo "They could be of some use down the line."
 fi
