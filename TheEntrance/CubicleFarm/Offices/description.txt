@@ -1,8 +1,12 @@
 test
 
 
--Replace text with story details-
+You access the offices, a space used by those above the lowly cubicle occupiers but still below those at the tippy top.
+Despite this difference in power, you feel there may be important info stored away in here as well.
+An elevator sits at the end of the corridor, perhaps it leads further onwards?
 
+
+--------------------------------------------------------------------------------------------------------------------------
 Now that the offices have been accessed, further utilities can be utilized.
 
 (Placeholder text) The files you need are located here.  To search through them, be sure to use the cat utility.
