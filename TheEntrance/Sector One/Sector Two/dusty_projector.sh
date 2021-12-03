@@ -20,7 +20,7 @@ fi
 
 read input
 
-if [ $input = "mv" ]; then
+if [ $input = mv ]; then
  echo "The Projector whirls as the numbers start to spill onto the screen numbers and images start flashing quickly."
  echo "The numbers starting to slow as the machine hums to a dull click as the numbers are placed in order onto the screen."
  echo -e "You make out several numbers: ${PURPLE}8-6-7-5"
