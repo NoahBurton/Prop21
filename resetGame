@@ -1,6 +1,5 @@
 #!/bin/bash
 
-unset BestLark
-touch .BestLark
-cp .BestLark
+unset Prop21
+cp -r Prop21 .Prop21
 
