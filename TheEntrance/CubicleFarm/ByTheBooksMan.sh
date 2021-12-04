@@ -100,6 +100,7 @@
 
 #!/bin/bash
 
+chmod u+x .death.sh
 echo "You see a sharply dressed worker glance over at you ever since you entered the room, this could be your mole"
 echo "You approuch the buiness man as he ends a call closing the a banking deal and turning towards you"
 echo "He seems a little more well off then the other employees with a well kept area and organized files which seem to hold account numbers you see at a glance"
