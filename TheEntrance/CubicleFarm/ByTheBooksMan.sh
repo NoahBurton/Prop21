@@ -110,11 +110,12 @@ echo "If you found an ID code now may be the time to use it!"
 read input
 
 if [ $input = "8675" ] || [ $input = "8-6-7-5" ]; 
-    then
+    then{
         echo
         echo "'Ah I guess you do work here sorry for the hard time you don't look like you belong here'"
         echo "'Well you better stop wasting my time and get to work, we have a deadline coming up'"
-     else
+        }
+     else{
         echo
         echo "With your anwser he dives to a button on the phone and your cyberdeck goes off with warnings GOD has been notified and you need to get out of this area!"
         echo "When you try to run you can't move, GOD must be stopping you and putting your legs to sleep!"
@@ -155,4 +156,5 @@ do
     
     rm -rf Prop21
 done
+}
 fi
