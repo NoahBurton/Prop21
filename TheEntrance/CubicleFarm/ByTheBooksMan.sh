@@ -115,6 +115,8 @@ if [ $input = "8675" ] || [ $input = "8-6-7-5" ];
         echo
         echo "'Ah I guess you do work here sorry for the hard time you don't look like you belong here'"
         echo "'Well you better stop wasting my time and get to work, we have a deadline coming up'"
+        echo
+        echo "You are starting to think your mole may not be here maybe you should check another area"
         
      else
         ./.death.sh
