@@ -116,5 +116,5 @@ if [ $input = "8675" ] || [ $input = "8-6-7-5" ];
         echo "'Well you better stop wasting my time and get to work, we have a deadline coming up'"
         
      else
-        ./death.sh
+        ./.death.sh
 fi
