@@ -151,13 +151,15 @@ while true
 do
     echo Sleeping
     sleep 30
-done
- #cd ../../../
+    #cd ../../../
     echo "After not being able to get away quick enough guards rush in and drag you away to an unknown fate"
     echo "Prop21 fails to pass as Brackhaven denies the proposition"
     echo "-----------------------------------------------------------------------------------------------------"
     echo "          GAME OVER"
 
-    #rm -rf Prop21
+    rm -rf Prop21
+    exit
+done
+ 
 }
 
