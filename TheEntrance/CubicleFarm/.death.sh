@@ -18,7 +18,7 @@ function trap_haha()
         echo "You are under arrest please stop resisting guards are dispatched to take care of you soon."
     elif [[ $ctrlC_count == 2 ]]; then
         echo "Please stop your life is forfit and now the companies proporty please remain still."
-    elif
+    elif; then
         echo "This is your last chance stop resisting or you be destroyed as per trash disposal company policy"
     else
         echo "You finally break free as you type quickly freeing your digital self for a quick get away into the cubical maze to hide from your pursuers"
