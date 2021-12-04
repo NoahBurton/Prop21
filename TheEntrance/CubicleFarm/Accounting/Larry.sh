@@ -84,11 +84,11 @@
 
 #!/bin/bash
 
-if [ 'ls | grep -c art' == 1 ]; then
+if [ "`ls | grep -c art`" == "1" ]; then
         echo "art test"
         rm art
         
-     elif ['ls | grep -c doge' == 1 ]; then
+     elif [ "`ls | grep -c doge`" == 1 ]; then
         echo "doge test"
         rm doge
 else
