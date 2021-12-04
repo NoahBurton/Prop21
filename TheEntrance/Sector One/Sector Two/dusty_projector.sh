@@ -1,3 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #!/bin/bash
 
 #To color code the text for code:
@@ -23,6 +66,6 @@ read input
 if [ $input = "mv" ]; then
  echo "The Projector whirls as the numbers start to spill onto the screen numbers and images start flashing quickly."
  echo "The numbers starting to slow as the machine hums to a dull click as the numbers are placed in order onto the screen."
- echo -e "You make out several numbers: ${PURPLE}8-6-7-5"
+ echo -e "You make out several numbers: ${PURPLE}8-6-7-5 it seems to be an ID of some sort, maybe an employees"
  echo "They could be of some use down the line."
 fi
