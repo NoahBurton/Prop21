@@ -8,17 +8,17 @@
         echo "Using Crtl C you can exit out of processes in Linux try it now to escape!"
         echo "----------------------------------------------------------------------------------------------------------------------------------------------------------"
         
-ctrlC_count=0
+ctrlc_count=0=0
 
 function trap_haha()
 {
-    let ctrlC_count++
+    let ctrlc_count=0++
     echo
-    if [[ $ctrlC_count == 1 ]]; then
+    if [[ $ctrlc_count=0 == 1 ]]; then
         echo "You are under arrest please stop resisting guards are dispatched to take care of you soon."
-    elif [[ $ctrlC_count == 2 ]]; then
+    elif [[ $ctrlc_count=0 == 2 ]]; then
         echo "Please stop your life is forfit and now the companies proporty please remain still."
-    elif; then
+     elif [[ $ctrlc_count=0 == 3 ]]; then
         echo "This is your last chance stop resisting or you be destroyed as per trash disposal company policy"
     else
         echo "You finally break free as you type quickly freeing your digital self for a quick get away into the cubical maze to hide from your pursuers"
@@ -32,12 +32,12 @@ while true
 do
     echo Sleeping
     sleep 30
-    cd ../../../
+done
+ cd ../../../
     echo "After not being able to get away quick enough guards rush in and drag you away to an unknown fate"
     echo "Prop21 fails to pass as Brackhaven denies the proposition"
     echo "-----------------------------------------------------------------------------------------------------"
     echo "          GAME OVER"
     
     rm -rf Prop21
-done
 }
