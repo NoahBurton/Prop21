@@ -8,17 +8,17 @@
         echo "Using Crtl C you can exit out of processes in Linux try it now to escape!"
         echo "----------------------------------------------------------------------------------------------------------------------------------------------------------"
         
-ctrlc_count=0=0
+ctrlC_count=0=0
 
-function trap_haha()
+function no_ctrlc()
 {
-    let ctrlc_count=0++
+    let ctrlC_count=0++
     echo
-    if [[ $ctrlc_count=0 == 1 ]]; then
+    if [[ $ctrlC_count=0 == 1 ]]; then
         echo "You are under arrest please stop resisting guards are dispatched to take care of you soon."
-    elif [[ $ctrlc_count=0 == 2 ]]; then
+    elif [[ $ctrlC_count=0 == 2 ]]; then
         echo "Please stop your life is forfit and now the companies proporty please remain still."
-     elif [[ $ctrlc_count=0 == 3 ]]; then
+     elif [[ $ctrlC_count=0 == 3 ]]; then
         echo "This is your last chance stop resisting or you be destroyed as per trash disposal company policy"
     else
         echo "You finally break free as you type quickly freeing your digital self for a quick get away into the cubical maze to hide from your pursuers"
@@ -26,7 +26,7 @@ function trap_haha()
     fi
 }
 
-trap ctrlC_count SIGINT
+trap no_ctrlc SIGINT
 
 while true
 do
