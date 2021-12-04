@@ -59,6 +59,8 @@ read answ
 if [ $answ = "y" ]; then
  echo "The projector flickers on and off, the image of the man you are here to stop filling the screen."
  echo "A small keypad showing its age emits a bright flash and blinks to life with numbers. Maybe entering the command move files will help you move the numbers in order?"
+ else
+ echo "Not worth a look at this time."
 fi
 
 read input
