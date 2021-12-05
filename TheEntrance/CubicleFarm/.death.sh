@@ -128,6 +128,7 @@
         echo "----------------------------------------------------------------------------------------------------------------------------------------------------------"
 
 ctrlC_count=0
+death=0
 
 function no_ctrlc()
 {
@@ -147,17 +148,12 @@ function no_ctrlc()
 
 trap no_ctrlc SIGINT
 
-ha=true
-
-while $ha
+while true
 do
     echo Sleeping
-    sleep 15
-    ha=false
-   
-done
- 
- cd ../../../
+    sleep 5
+    if [ death -gt 3 ]; then
+        cd ../../../
     echo "After not being able to get away quick enough guards rush in and drag you away to an unknown fate"
     echo "Prop21 fails to pass as Brackhaven denies the proposition"
     echo "-----------------------------------------------------------------------------------------------------"
@@ -165,4 +161,9 @@ done
 
     rm -rf Prop21
     exit
+    
+   
+done
+ 
+ 
 
