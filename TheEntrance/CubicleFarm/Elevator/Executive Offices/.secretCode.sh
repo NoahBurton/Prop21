@@ -167,7 +167,28 @@ do
 done
 
 else
-echo "You found it!"
+echo "The safe cracks open with a hydraulic hiss."
+sleep 1
+echo "The information in the safe was almost too generous. This amount of dirt could topple even the president. "
+echo "The information gained from the infiltration was more than enough to topple Brackhaven and his toxic empire."
+echo "After a short investigation, Brackhaven and his monopolies were rung dry for every penny that they stole from the people of Seattle."
+echo "After that day, things changed. No longer were people being put into dire straits to line the pockets of a few fat cats."
+sleep 1
+echo "Communities thrived once more; the city was filled with new life."
+echo 
+sleep 1
+echo "Prop21 passed and a representation of those mistreated by the corporations was heard"
+sleep 5
+echo "We won"
+echo
+sleep 2
+echo "---------------------------------------------------------------------------------------------------------------------------------------"
+echo "With the art gained from the heist you were able secure your dream home in downtown Seattle right in the new district of the undergound Seattle"
+sleep 5
+echo "Thank you for playing our game!"
+cd ../../../../../
+
+
 fi
 ' > safe.sh
 else
