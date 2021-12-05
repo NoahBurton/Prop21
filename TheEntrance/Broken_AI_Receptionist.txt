@@ -9,7 +9,6 @@ for future use.
 ----------------------------------------------------------------------------------
 Using chmod in linuix allows you to change permissions.
 An example is chmod u+x FileName which allows you to execute a file.
-To run a script you will need to use chmod on it and to then type "./FileName"
 There are many other uses for this command but here you will need u+x the most.
 
 Another key feature to a new user is the man command.
