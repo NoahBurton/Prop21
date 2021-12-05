@@ -1,5 +1,0 @@
-#!/bin/bash
-
-unset Prop21
-cp -r Prop21 .Prop21
-
