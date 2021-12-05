@@ -127,6 +127,7 @@ if [ $answ = "8055" ]; then
   
 
 ctrlC_count=0
+death=0
 
 function no_ctrlc()
 {
@@ -149,19 +150,24 @@ trap no_ctrlc SIGINT
 while true
 do
     echo Sleeping
-    sleep 30
-    cd ../../../
+    sleep 2
+    if [ $death -gt 3 ]; then
+        cd ../../../
     echo "After not being able to get away quick enough guards rush in and drag you away to an unknown fate"
     echo "Prop21 fails to pass as Brackhaven denies the proposition"
-    echo "------------------------------------------------------------------------------------------------------"
+    echo "-----------------------------------------------------------------------------------------------------"
     echo "          GAME OVER"
 
     rm -rf Prop21
     exit
+    fi
+    let death++
+    
+   
 done
 
 else
-echo "test"
+echo "You found it!"
 fi
 ' > safe.sh
 else
