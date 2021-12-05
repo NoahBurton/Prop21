@@ -122,7 +122,7 @@ echo "Enter the code now the keypad prompts"
 read answ
 if [ $answ = "8055" ]; then
   touch safe.sh
-  echo "#!/bin/bash
+  echo '#!/bin/bash
   if true; then
   
 
@@ -165,7 +165,7 @@ done
 else
 echo 'test'
 fi
-" > safe.sh
+' > safe.sh
 else
 echo "A shock jolts through your body"
 sleep 5
