@@ -122,6 +122,8 @@ echo "Enter the code now the keypad prompts"
 read answ
 if [ $answ = "8055" ]; then
   touch safe.sh
+  echo "The floorboards open and from them arrise a blackened steel safe."
+  echo
   echo '#!/bin/bash
   if true; then
   
@@ -149,6 +151,13 @@ trap no_ctrlc SIGINT
 
 while true
 do
+    echo "You start testing the defenses of the sleek looking safe"
+    echo "The safe has no external lock it seems to be activated online, perfect for you"
+    echo "After prodding the safe with your cyberdeck warnings flash"
+    echo 
+    echo "The safe is going to send an alert to the guards if you dont stop it in time!"
+    echo
+    echo "Press Control C to stop the command much like control C kills the foreground process in Linux!"
     echo Sleeping
     sleep 2
     if [ $death -gt 3 ]; then
@@ -184,9 +193,10 @@ echo
 sleep 2
 echo "---------------------------------------------------------------------------------------------------------------------------------------"
 echo "With the art gained from the heist you were able secure your dream home in downtown Seattle right in the new district of the undergound Seattle"
-sleep 5
-echo "Thank you for playing our game!"
+sleep 3
+echo
 cd ../../../../../
+echo "Thank you for playing our game!"
 
 
 fi
