@@ -120,7 +120,7 @@ echo "The keypad shows a four digit code needing to be entered"
 echo "Enter the code now the keypad prompts"
 
 read answ
-if [ answ = "8055" ]; then
+if [ $answ = "8055" ]; then
   touch safe.sh
   echo "#!/bin/bash
   if true; then
