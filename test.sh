@@ -33,4 +33,4 @@ done
     echo "          GAME OVER"
 
     #rm -rf Prop21
-    exi
+    exit
