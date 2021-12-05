@@ -98,6 +98,7 @@ if [ "`ls | grep -c art`" == "1" ]; then
         echo "The program is called 'vim' you can use this to edit scripts when hovering over letters in vim you can press x to delete the letter which you will need to in this case"
         echo "the 'i' key will allow you to insert words however for the safe this may be unnecessary, to get out of insert mode you will press ':'"
         echo "When you are done with editing the file in vim you can type wq! to save and exit or q! to exit without saving you have to be in the ':' mode to quit however"
+        echo
         
         rm art
         
@@ -111,6 +112,7 @@ if [ "`ls | grep -c art`" == "1" ]; then
         echo "The program is called 'vim' you can use this to edit scripts when hovering over letters in vim you can press x to delete the letter which you will need to in this case"
         echo "the 'i' key will allow you to insert words however for the safe this may be unnecessary, to get out of insert mode you will press ':'"
         echo "When you are done with editing the file in vim you can type wq! to save and exit or q! to exit without saving you have to be in the ':' mode to quit however"
+        echo
         
         rm doge
 else
