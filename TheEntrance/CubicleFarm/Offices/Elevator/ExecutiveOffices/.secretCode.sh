@@ -133,13 +133,13 @@ function no_ctrlc()
     let ctrlC_count++
     echo
     if [[ $ctrlC_count == 1 ]]; then
-        echo 'Intruder alert please stand still while guards arrive.'
+        echo "Intruder alert please stand still while guards arrive."
     elif [[ $ctrlC_count == 2 ]]; then
-        echo 'Are you sure this is a false alarm Mr Brackhaven?'
+        echo "Are you sure this is a false alarm Mr Brackhaven?"
      elif [[ $ctrlC_count == 3 ]]; then
-        echo 'Please confirm you are Mr.Brackhaven'
+        echo "Please confirm you are Mr.Brackhaven"
     else
-        echo 'Thank you Mr.Brackhaven false alarm noted have a nice day'
+        echo "Thank you Mr.Brackhaven false alarm noted have a nice day"
         exit
     fi
 }
@@ -151,19 +151,17 @@ do
     echo Sleeping
     sleep 30
     cd ../../../
-    echo 'After not being able to get away quick enough guards rush in and drag you away to an unknown fate'
-    echo 'Prop21 fails to pass as Brackhaven denies the proposition'
-    echo '------------------------------------------------------------------------------------------------------'
-    echo '          GAME OVER'
+    echo "After not being able to get away quick enough guards rush in and drag you away to an unknown fate"
+    echo "Prop21 fails to pass as Brackhaven denies the proposition"
+    echo "------------------------------------------------------------------------------------------------------"
+    echo "          GAME OVER"
 
     rm -rf Prop21
     exit
 done
- 
-}
 
 else
-echo 'test'
+echo "test"
 fi
 ' > safe.sh
 else
