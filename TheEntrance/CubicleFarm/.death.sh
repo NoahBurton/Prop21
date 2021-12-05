@@ -151,8 +151,8 @@ trap no_ctrlc SIGINT
 while true
 do
     echo Sleeping
-    sleep 5
-    if [ death -gt 3 ]; then
+    sleep 2
+    if [ $death -gt 3 ]; then
         cd ../../../
     echo "After not being able to get away quick enough guards rush in and drag you away to an unknown fate"
     echo "Prop21 fails to pass as Brackhaven denies the proposition"
@@ -161,6 +161,8 @@ do
 
     rm -rf Prop21
     exit
+    fi
+    let death++
     
    
 done
