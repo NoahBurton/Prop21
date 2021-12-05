@@ -117,3 +117,4 @@ if [ "`ls | grep -c art`" == "1" ]; then
         rm doge
 else
   echo "fail test"
+fi
