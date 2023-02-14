@@ -1,7 +1,7 @@
 Welcome to LARK
 >>>>>>>the Linux Activity to Reinforce Knowledge
 
-Name of game: Proposition 23
+Name of game: Proposition 21
 
 Devoloped by: Noah Burton and Amir Jacobs
 
